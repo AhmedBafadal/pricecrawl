@@ -11,7 +11,6 @@ class PriceCrawlerSpider(CrawlSpider):
     name = "pricecrawler"
     with open("urls.txt", "rt") as f:
         start_urls = [url.strip() for url in f.readlines()]
-    # start_urls = ["http://quotes.toscrape.com/"]
 
     def __init__(self, *args, **kwargs):
         self.unique_urls = set()

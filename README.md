@@ -41,3 +41,6 @@ To run scraper:
 scrapy crawl pricecrawler
 ```
 
+## Improvements
+To improve this, one could utilise an Item Exporter with the Scrapy Pipeline. Further, it could be benefitial to leverage ScrapyD.
+
